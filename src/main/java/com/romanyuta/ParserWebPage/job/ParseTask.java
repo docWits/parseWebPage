@@ -39,7 +39,6 @@ public class ParseTask {
 
     //@Scheduled(fixedDelay = 500000)
     public List<Page> parseAllText(String url){
-        //String url = "https://www.simbirsoft.com/";
         ArrayList<String> listOfSeparators = new ArrayList<String>();
         listOfSeparators.add(" ");
         listOfSeparators.add(",");
